@@ -212,7 +212,7 @@ def fare_calculation(vehicle):
         rate = hours * 2.00
 
     ret = "Vehicle Removed!\n" \
-          "Your Total for " + "{:.2f}".format(hours) + " hours is " + "{:.2f}" + "Rs" .format(rate)
+          "Your Total for " + "{:.2f}".format(hours) + " hours is " + "Rs" + "{:.2f}" .format(rate)
 
     return ret
 
